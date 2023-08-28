@@ -26,6 +26,7 @@
         for (int i = 0; i < numberWord; i++) {
             printf("%s\n", array[i]);
         }
+        free(array);
         printf("Enter the number of words, 0 to quit\n");
 
     }
